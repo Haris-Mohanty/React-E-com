@@ -12,7 +12,7 @@ function App() {
 
       <Hero slides={SliderData} />
 
-      <h1>Products</h1>
+      <h1>Products Section Coming Soon</h1>
       <FooterContainer />
     </>
   );
