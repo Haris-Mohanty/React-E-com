@@ -26,6 +26,7 @@
   width: 70vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-bottom: 0;
 }
 .nav-links {
   color: white;
@@ -34,7 +35,7 @@
 }
 
 .nav-links:hover {
-  background-color: #6d76f7;
+  background-color: #fff;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -121,6 +122,6 @@
     transition: 0.25s;
   }
   button {
-    display: none;
+    display: none !important;
   }
 }
