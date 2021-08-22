@@ -23,10 +23,14 @@
 .btn-facebook {
   background-color: #405d9d;
   color: #fff;
+  margin-bottom: 15px;
+  width: 100%;
 }
 .btn-twitter {
   background-color: #42aeec;
   color: #fff;
+  margin-bottom: 15px;
+  width: 100%;
 }
 .input-group-text {
   font-size: 1.5rem;
@@ -35,15 +39,12 @@
 .form-group {
   margin-bottom: 20px;
 }
-.btn {
-  margin-bottom: 15px;
-  width: 100%;
-}
-.card-body {
+
+article.card-body {
   width: 55%;
 }
 @media only screen and (max-width: 600px) {
-  .card-body {
+  article.card-body {
     width: 85%;
   }
 }

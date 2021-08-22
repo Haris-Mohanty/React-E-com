@@ -67,22 +67,10 @@ const SignUp = () => {
                   name=""
                   className="form-control"
                   placeholder="Phone number"
-                  type="text"
+                  type="number"
                 />
               </div>
-              <div className="form-group input-group">
-                <div className="input-group-prepend">
-                  <span className="input-group-text">
-                    <i className="fa fa-building"></i>
-                  </span>
-                </div>
-                <select className="form-control">
-                  <option selected=""> Select job type</option>
-                  <option>Designer</option>
-                  <option>Manager</option>
-                  <option>Accaunting</option>
-                </select>
-              </div>
+
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">

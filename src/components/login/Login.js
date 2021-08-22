@@ -6,7 +6,7 @@ const Login = () => {
     <div classNameName="section">
       <div classNameName="container">
         <div className="card bg-light">
-          <div className="card-body mx-auto">
+          <article className="card-body mx-auto">
             <h4 className="card-title mt-3 text-center">Welcome</h4>
             <p className="text-center">Login to your account</p>
             <p className="row">
@@ -61,7 +61,7 @@ const Login = () => {
                 Don't have an account? <a href="/sign-up">Sign Up</a>
               </p>
             </form>
-          </div>
+          </article>
         </div>
       </div>
     </div>
