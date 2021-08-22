@@ -29,3 +29,9 @@ ul {
 a {
   text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-img-top {
+    height: 250px;
+  }
+}

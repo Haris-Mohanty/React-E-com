@@ -24,7 +24,7 @@ const ProductListing = () => {
 
   return (
     <div className="container section">
-      <div className="row row-cols-1 row-cols-md-4 g-4">
+      <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4   g-4">
         <ProductComponent />
       </div>
     </div>
