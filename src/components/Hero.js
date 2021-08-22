@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import styled, { css } from "styled-components/macro";
-
-import { Button } from "./Button";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { IoArrowForward, IoArrowBack } from "react-icons/io5";
 
@@ -262,10 +260,14 @@ const Hero = ({ slides }) => {
                   <HeroContent>
                     <h1>{slide.title}</h1>
                     <p>{slide.offer}</p>
-                    <Button to={slide.path} primary="true">
+                    <button
+                      className="btn btn-primary btn-md"
+                      to={slide.path}
+                      primary="true"
+                    >
                       {slide.label}
                       <Arrow />
-                    </Button>
+                    </button>
                   </HeroContent>
                 </HeroSlider>
               )}

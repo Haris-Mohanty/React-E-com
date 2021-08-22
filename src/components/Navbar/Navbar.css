@@ -35,6 +35,7 @@
 }
 
 .nav-links:hover {
+  color: #0d6efd;
   background-color: #fff;
   border-radius: 4px;
   transition: all 0.2s ease-out;
@@ -42,10 +43,6 @@
 
 .fa-bars {
   color: #fff;
-}
-
-.nav-links-mobile {
-  display: none;
 }
 
 .menu-icon {
@@ -104,23 +101,7 @@
     color: #fff;
     font-size: 2rem;
   }
-  .nav-links-mobile {
-    display: block;
-    text-align: center;
-    padding: 1rem;
-    margin: 1.5rem auto;
-    border-radius: 4px;
-    width: 60%;
-    background: #4ad9e4;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
-  }
-  .nav-links-mobile:hover {
-    background: #fff;
-    color: #6568f4;
-    transition: 0.25s;
-  }
+
   .NavbarItems button {
     display: none !important;
   }
