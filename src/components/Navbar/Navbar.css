@@ -77,7 +77,7 @@
   }
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 100%;
     display: table;
   }
@@ -89,14 +89,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(0%, 70%);
   }
   .menu-icon {
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 45%);
     font-size: 1.8rem;
     cursor: pointer;
   }
@@ -107,10 +107,10 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
-    padding: 1.5rem;
-    margin: 2rem auto;
+    padding: 1rem;
+    margin: 1.5rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 60%;
     background: #4ad9e4;
     text-decoration: none;
     color: #fff;

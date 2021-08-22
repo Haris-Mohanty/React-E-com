@@ -27,13 +27,13 @@ export function FooterContainer() {
           <Footer.Column>
             <Footer.Title>Social</Footer.Title>
             <Footer.Link href="#">
-              <i class="fab fa-facebook-square"></i>Facebook
+              <i className="fab fa-facebook-square"></i>Facebook
             </Footer.Link>
             <Footer.Link href="#">
-              <i class="fab fa-instagram-square"></i>Instagram
+              <i className="fab fa-instagram-square"></i>Instagram
             </Footer.Link>
             <Footer.Link href="#">
-              <i class="fab fa-linkedin"></i>Linkedin
+              <i className="fab fa-linkedin"></i>Linkedin
             </Footer.Link>
           </Footer.Column>
         </Footer.Row>

@@ -17,7 +17,10 @@ export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 20%;
+  @media screen and (max-width: 960px) {
+    margin-left: 0;
+  }
 `;
 
 export const Row = styled.div`

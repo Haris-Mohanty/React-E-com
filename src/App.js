@@ -12,11 +12,11 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <switch>
+        <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/products" exact component={ProductListing} />
           <Route path="/product/:productId" exact component={ProductDetails} />
-        </switch>
+        </Switch>
         <FooterContainer />
       </Router>
     </>
