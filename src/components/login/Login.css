@@ -28,3 +28,22 @@
   background-color: #42aeec;
   color: #fff;
 }
+.input-group-text {
+  font-size: 1.5rem;
+  width: 50px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.btn {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.card-body {
+  width: 55%;
+}
+@media only screen and (max-width: 600px) {
+  .card-body {
+    width: 85%;
+  }
+}

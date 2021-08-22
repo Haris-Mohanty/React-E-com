@@ -9,15 +9,17 @@ const SignUp = () => {
           <article className="card-body mx-auto">
             <h4 className="card-title mt-3 text-center">Create Account</h4>
             <p className="text-center">Get started with your free account</p>
-            <p>
-              <a href="" className="btn btn-block btn-twitter">
-                {" "}
-                <i className="fab fa-twitter"></i>   Login via Twitter
-              </a>
-              <a href="" className="btn btn-block btn-facebook">
-                {" "}
-                <i className="fab fa-facebook-f"></i>   Login via facebook
-              </a>
+            <p className="row">
+              <div className="col-lg-6">
+                <a href="" className=" btn btn-block btn-twitter">
+                  <i className="fab fa-twitter"></i>   Login via Twitter
+                </a>
+              </div>
+              <div className="col-lg-6">
+                <a href="" className=" btn btn-block btn-facebook">
+                  <i className="fab fa-facebook-f"></i>   Login via facebook
+                </a>
+              </div>
             </p>
             <p className="divider-text">
               <span className="bg-light">OR</span>
@@ -26,8 +28,7 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-user"></i>{" "}
+                    <i className="fa fa-user"></i>
                   </span>
                 </div>
                 <input
@@ -40,8 +41,7 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-envelope"></i>{" "}
+                    <i className="fa fa-envelope"></i>
                   </span>
                 </div>
                 <input
@@ -54,15 +54,14 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-phone"></i>{" "}
+                    <i className="fa fa-phone"></i>
                   </span>
                 </div>
                 <select className="custom-select">
-                  <option selected="">+971</option>
-                  <option value="1">+972</option>
-                  <option value="2">+198</option>
-                  <option value="3">+701</option>
+                  <option selected="">+91</option>
+                  <option value="1">+92</option>
+                  <option value="2">+18</option>
+                  <option value="3">+71</option>
                 </select>
                 <input
                   name=""
@@ -74,8 +73,7 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-building"></i>{" "}
+                    <i className="fa fa-building"></i>
                   </span>
                 </div>
                 <select className="form-control">
@@ -88,8 +86,7 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-lock"></i>{" "}
+                    <i className="fa fa-lock"></i>
                   </span>
                 </div>
                 <input
@@ -101,8 +98,7 @@ const SignUp = () => {
               <div className="form-group input-group">
                 <div className="input-group-prepend">
                   <span className="input-group-text">
-                    {" "}
-                    <i className="fa fa-lock"></i>{" "}
+                    <i className="fa fa-lock"></i>
                   </span>
                 </div>
                 <input
@@ -113,12 +109,11 @@ const SignUp = () => {
               </div>
               <div className="form-group">
                 <button type="submit" className="btn btn-primary btn-block">
-                  {" "}
-                  Create Account{" "}
+                  Create Account
                 </button>
               </div>
               <p className="text-center">
-                Have an account? <a href="/login">Log In</a>{" "}
+                Have an account? <a href="/login">Log In</a>
               </p>
             </form>
           </article>
