@@ -3,58 +3,66 @@ import "./Login.css";
 
 const Login = () => {
   return (
-    <div className="section">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4 offset-md-4">
-            <div className="login-form bg-light mt-4 p-4">
-              <form action="" method="" className="row g-3">
-                <h4>Welcome Back</h4>
-                <div className="col-12">
-                  <label>Username</label>
-                  <input
-                    type="text"
-                    name="username"
-                    className="form-control"
-                    placeholder="Username"
-                  />
+    <div classNameName="section">
+      <div classNameName="container">
+        <div className="card bg-light">
+          <article className="card-body mx-auto">
+            <h4 className="card-title mt-3 text-center">Welcome</h4>
+            <p className="text-center">Login to your account</p>
+            <p>
+              <a href="" className="btn btn-block btn-twitter">
+                {" "}
+                <i className="fab fa-twitter"></i>   Login via Twitter
+              </a>
+              <a href="" className="btn btn-block btn-facebook">
+                {" "}
+                <i className="fab fa-facebook-f"></i>   Login via facebook
+              </a>
+            </p>
+            <p className="divider-text">
+              <span className="bg-light">OR</span>
+            </p>
+            <form>
+              <div className="form-group input-group">
+                <div className="input-group-prepend">
+                  <span className="input-group-text">
+                    {" "}
+                    <i className="fa fa-envelope"></i>{" "}
+                  </span>
                 </div>
-                <div className="col-12">
-                  <label>Password</label>
-                  <input
-                    type="password"
-                    name="password"
-                    className="form-control"
-                    placeholder="Password"
-                  />
-                </div>
-                <div className="col-12">
-                  <div className="form-check">
-                    <input
-                      className="form-check-input"
-                      type="checkbox"
-                      id="rememberMe"
-                    />
-                    <label className="form-check-label" for="rememberMe">
-                      {" "}
-                      Remember me
-                    </label>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <button type="submit" className="btn btn-dark float-end">
-                    Login
-                  </button>
-                </div>
-              </form>
-              <hr className="mt-4" />
-              <div className="col-12">
-                <p className="text-center mb-0">
-                  Have not account yet? <a href="#">Signup</a>
-                </p>
+                <input
+                  name=""
+                  className="form-control"
+                  placeholder="Email address"
+                  type="email"
+                />
               </div>
-            </div>
-          </div>
+
+              <div className="form-group input-group">
+                <div className="input-group-prepend">
+                  <span className="input-group-text">
+                    {" "}
+                    <i className="fa fa-lock"></i>{" "}
+                  </span>
+                </div>
+                <input
+                  className="form-control"
+                  placeholder="Create password"
+                  type="password"
+                />
+              </div>
+
+              <div className="form-group">
+                <button type="submit" className="btn btn-primary btn-block">
+                  {" "}
+                  Login{" "}
+                </button>
+              </div>
+              <p className="text-center">
+                Don't have an account? <a href="/sign-up">Sign Up</a>{" "}
+              </p>
+            </form>
+          </article>
         </div>
       </div>
     </div>

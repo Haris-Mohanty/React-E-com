@@ -1,48 +1,30 @@
-.border-md {
-  border-width: 2px;
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
 }
 
 .btn-facebook {
-  background: #405d9d;
-  border: none;
+  background-color: #405d9d;
+  color: #fff;
 }
-
-.btn-facebook:hover,
-.btn-facebook:focus {
-  background: #314879;
-}
-
 .btn-twitter {
-  background: #42aeec;
-  border: none;
-}
-
-.btn-twitter:hover,
-.btn-twitter:focus {
-  background: #1799e4;
-}
-
-body {
-  min-height: 100vh;
-}
-
-.form-control:not(select) {
-  padding: 1.5rem 0.5rem;
-}
-
-select.form-control {
-  height: 52px;
-  padding-left: 0.5rem;
-}
-
-.form-control::placeholder {
-  color: #ccc;
-  font-weight: bold;
-  font-size: 0.9rem;
-}
-.form-control:focus {
-  box-shadow: none;
-}
-#countryCode {
-  max-width: 80px;
+  background-color: #42aeec;
+  color: #fff;
 }

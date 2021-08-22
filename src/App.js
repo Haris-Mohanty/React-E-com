@@ -7,6 +7,7 @@ import ProductListing from "./containers/ProductListing";
 import ProductDetails from "./containers/ProductDetail";
 import Home from "./components/Home";
 import Login from "./components/login/Login";
+import SignUp from "./components/login/SignUp";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/products" exact component={ProductListing} />
           <Route path="/product/:productId" exact component={ProductDetails} />
           <Route path="/login" exact component={Login} />
+          <Route path="/sign-up" exact component={SignUp} />
         </Switch>
         <FooterContainer />
       </Router>
