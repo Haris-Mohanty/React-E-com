@@ -12,12 +12,12 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
-        {/* <switch>
+        <switch>
+          <Navbar />
           <Route path="/" />
           <Route path="/products" exact component={ProductListing} />
           <Route path="/product/:productId" exact component={ProductDetails} />
-        </switch> */}
+        </switch>
       </Router>
 
       <Hero slides={SliderData} />

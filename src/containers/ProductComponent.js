@@ -11,8 +11,8 @@ const ProductComponent = () => {
           <img src={image} class="card-img-top" alt={title} />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">$ {price}</h6>
-            <h6 class="card-subtitle mb-2 text-muted">{category}</h6>
+            <h6 className="card-subtitle mb-2 text-muted">$ {price}</h6>
+            <h6 className="card-subtitle mb-2 text-muted">{category}</h6>
           </div>
         </div>
       </div>
