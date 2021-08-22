@@ -121,7 +121,7 @@
     color: #6568f4;
     transition: 0.25s;
   }
-  button {
+  .NavbarItems button {
     display: none !important;
   }
 }
